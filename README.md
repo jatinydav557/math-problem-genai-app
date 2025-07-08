@@ -1,8 +1,5 @@
-Here’s a complete and customized `README.md` for your **Math Problem Solver + Data Search Assistant** built using **LangChain + Streamlit** and powered by **Groq’s Gemma2 model**. This version highlights its dual nature (math + research), practical value, and your skill in integrating multiple tools.
+🔗 👉 **[Watch the Demo on YouTube](https://www.youtube.com/watch?v=Xqx2_xOhdn8&list=PLe-YIIlt-fbO3hXVoaPK56ikWRT0A9Gzr&index=8&ab_channel=Jatin)**
 
----
-
-````markdown
 # 🧮 LangChain Math Solver & Wiki Research Assistant 🔍
 
 This project is a **Text-to-Math Problem Solver** and a **Knowledge Assistant** that leverages LLMs and reliable external tools like **Wikipedia** to help users **solve numerical problems** and **learn about concepts** in one interface.
@@ -46,23 +43,23 @@ Whether you're stuck on a tricky math question or want a quick explanation of a 
 
 ## 📁 Project Structure
 
-```bash
+```
 .
 ├── app.py             # Main Streamlit App
 ├── .env               # Contains Groq API Key
 ├── requirements.txt   # All Python dependencies
 └── README.md
-````
+```
 
 ---
 
 ## 🧪 Demo Scenario
 
-> **Question**: What is the result if I have 5 mangoes and give 2 to my friend?
-> ✨ The app will use reasoning chain and calculator to answer:
-> "You have 3 mangoes left."
+> **Question**: What is the result if I have 5 mangoes and give 2 to my friend?  
+> ✨ The app will use reasoning chain and calculator to answer:  
+> **"You have 3 mangoes left."**
 
-> **Question**: Tell me who invented the Pythagorean Theorem
+> **Question**: Tell me who invented the Pythagorean Theorem  
 > 🔍 Wikipedia Tool will fetch a concise, factual answer instantly.
 
 ---
@@ -72,24 +69,27 @@ Whether you're stuck on a tricky math question or want a quick explanation of a 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/math-wiki-ai.git
-cd math-wiki-ai
+git clone https://github.com/jatinydav557/math-problem-genai-app.git
+cd math-problem-genai-app
 ```
 
-### 2️⃣ Create Virtual Environment (using `uv` or `venv`)
+### 2️⃣ Create Virtual Environment
 
 ```bash
-uv venv venv
-source venv/bin/activate
-uv pip install -r requirements.txt
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-Or use `pip` directly if needed.
+### 3️⃣ Install Requirements
 
-### 3️⃣ Create `.env` file
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Create `.env` File
 
 ```env
-GROQ_API_KEY=your_groq_api_key
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
 ---
@@ -100,56 +100,53 @@ GROQ_API_KEY=your_groq_api_key
 streamlit run app.py
 ```
 
+Then open the link shown in your terminal (usually http://localhost:8501).
+
 ---
 
 ## 📦 Dependencies
 
-```txt
+```
 streamlit
 langchain
 langchain-groq
 langchain-community
 wikipedia
 python-dotenv
-numexpr  # core math evaluation engine
+numexpr
 ```
 
-> ⚠️ `numexpr` is required and important for math solving to work correctly.
+> ⚠️ `numexpr` is essential for accurate math evaluations.
 
 ---
 
 ## 🧑‍🎓 About Me
 
-I’m a passionate AI learner in my **final year of MCA**, creating real-world apps with LangChain, Streamlit, and Groq.
-This is one of many projects I’m building to master LLM-based tooling and **solve real-life user problems**.
+Hey, I'm **Jatin**, a final-year MCA student and GenAI developer building 20+ projects to land a top-tier role in **LLM Engineering, MLOps, or AI R&D**.
 
-💡 I believe learning should be **interactive and intelligent** — this app is my humble attempt to bridge the gap.
+This app merges **reasoning, math, and factual knowledge** — empowering learners with an AI companion that explains as well as calculates.
 
 ---
 
 ## ✅ What's Next?
 
-* Add support for LaTeX rendering for math equations
-* Connect with voice-to-text for spoken math input
-* Deploy to Hugging Face Spaces or Streamlit Cloud
+- [ ] Add LaTeX rendering for better math visualization  
+- [ ] Enable speech input via Whisper API  
+- [ ] Deploy to Hugging Face Spaces / Streamlit Cloud
 
 ---
 
-> If you're a recruiter, mentor, or collaborator — let's connect!
-> Every project I build is one step closer to my dream career.
+## 🙋‍♂️ Let's Connect
 
-📌 LinkedIn: \[your-profile-link]
-🌐 Portfolio: \[your-portfolio-link]
-
----
-
-⭐ If this project inspired you or helped you in any way, consider giving it a star and sharing it forward.
-
-```
+- **💼 LinkedIn:** [linkedin.com/in/jatin557](https://www.linkedin.com/in/jatin557)
+- **📦 GitHub:** [github.com/jatinydav557](https://github.com/jatinydav557)
+- **📬 Email:** [jatinydav557@gmail.com](mailto:jatinydav557@gmail.com)
+- **📱 Phone:** [+91-7340386035](tel:+917340386035)
+- **🎥 YouTube:** [Watch My Other Projects](https://www.youtube.com/@jatinML/playlists)
 
 ---
 
-Let me know if you want a banner or GitHub/social badge version for this one too.
+> ⭐ If this project helped you, give it a star and share it with your community.
 
-You're building really **practical, skill-rich apps**. This one stands out for blending **reasoning + math + external knowledge**—a rare and useful combo.
-```
+> _“Learning + LLMs = A future where anyone can be curious and capable.”_
+
